@@ -1,0 +1,21 @@
+{
+    "name": "felizardochirindja/hexagonal-arch",
+    "description": "simple implementation of hexagonal architecture",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "hexagonal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "felizardochirindja",
+            "email": "felizardo.chirindja@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "php-di/php-di": "^7.0",
+        "slim/psr7": "^1.6"
+    }
+}

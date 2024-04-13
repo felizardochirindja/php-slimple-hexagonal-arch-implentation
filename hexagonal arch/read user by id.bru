@@ -1,0 +1,18 @@
+meta {
+  name: read user by id
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8888/users/65b0fee4e7ec5
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "felix",
+    "favoriteMovieId": 1
+  }
+}

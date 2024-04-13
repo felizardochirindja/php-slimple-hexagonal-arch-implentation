@@ -1,0 +1,19 @@
+meta {
+  name: update user
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:8888/users/update
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "65b0fff7edcf8",
+    "name": "caros",
+    "favoriteMovieId": 2
+  }
+}

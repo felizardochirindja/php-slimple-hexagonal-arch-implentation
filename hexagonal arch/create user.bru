@@ -1,0 +1,18 @@
+meta {
+  name: create user
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8888/users/create
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "felix",
+    "favoriteMovieId": 2
+  }
+}

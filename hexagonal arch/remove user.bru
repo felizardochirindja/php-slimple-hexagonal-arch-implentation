@@ -1,0 +1,18 @@
+meta {
+  name: remove user
+  type: http
+  seq: 4
+}
+
+delete {
+  url: http://localhost:8888/users/remove/65b0fee4e7ec5
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "felix",
+    "favoriteMovieId": 1
+  }
+}
